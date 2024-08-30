@@ -9,6 +9,22 @@
 </head>
 <body>
     
+    <header>
+        <h1>Formulario de cadastro</h1>
+        <form id="cadastroMedicamento" onsubmit="adicionarMedicamento(event)">
+            <label for="nome">Nome do Medicamento:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="laboratorio">Nome do Laboratório:</label>
+            <input type="text" id="laboratorio" name="laboratorio" required>
+
+            <label for="preco">Preço:</label>
+            <input type="number" id="preco" name="preco" step="0.01" required>
+
+            <button type="submit">Cadastrar Medicamento</button>
+        </form>
+    </header>
+
     <script src="js/script.js"></script>
 </body>
 </html>
