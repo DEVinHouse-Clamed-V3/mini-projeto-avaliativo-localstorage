@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
     <header>
         <h1>Formulario de cadastro</h1>
         <form id="cadastroMedicamento" onsubmit="adicionarMedicamento(event)">
+
+            <label for="photoUrl">foto</label>
+            <input type="url" id="photoUrl" name="photoUrl">
+
             <label for="nome">Nome do Medicamento:</label>
             <input type="text" id="nome" name="nome" required>
 
@@ -22,7 +26,9 @@
             <input type="number" id="preco" name="preco" step="0.01" required>
 
             <button type="submit">Cadastrar Medicamento</button>
-        </form>
+            
+            </form>
+
     </header>
 
     <script src="js/script.js"></script>

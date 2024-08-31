@@ -10,5 +10,52 @@
 }
 
 body {
-    background-color: #F0F4F5;
+    font-family: Arial, sans-serif;
+}
+
+.product-card {
+    width: 200px;
+    border: 1px solid #8b3f3f;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-header {
+    position: relative;
+    background-color: #4400fd;
+    padding: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.product-info {
+    background-color: #ff04b4;
+    padding: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-lab {
+    color: #00ff2a;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-weight: bold;
 }
